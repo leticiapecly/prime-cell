@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+:root {
+    /* Tipos de Cor 1 */
+    --cor1:#12AF3E ;
+    --cor2:#B7E4C7 ;
+    --cor3:#95D5B2 ;
+    --cor4:#74C69D ;
+    --cor5:#52B788 ;
+    --cor6:#40916C ;
+    --cor7:#2D6A4F ;
+    --cor8:#1B4332 ;
+    --cor9:#081C15 ;
+
+    /* Tipos de Cor 2 */
+    --cor1:#50FFB1 ;
+    --cor2:#4FB286 ;
+    --cor3:#3C896D ;
+    --cor4:#546D64 ;
+    --cor5:#4D685A ;
+
+    /* Tipos de Cores Escura */
+    --cor1: #063615;
+    --cor2: #283825;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    font-size: 19px;
+    background-color: black;
+    color: white; 
+   
+    text-align: justify;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2em;
+}
+
+header > img {
+    width: 148px;
+    height: 130px;
+}
+
+/* Detalhes fundo */
+
+position: absolute;
+width: 1200px;
+height: 766.52px;
+
+background: url(md_5acc6b88a49db.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
