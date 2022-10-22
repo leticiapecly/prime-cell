@@ -14,3 +14,10 @@
 @import url(home/cabecalho/cabecalho-link.css);
 @import url(home/cabecalho/cabecalho-lista.css);
 @import url(home/cabecalho/cabecalho-img.css);
+@import url(home/cabecalho/cabecalho-orcamento.css);
+@import url(home/cabecalho/cabecalho-detalhe.css);
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}

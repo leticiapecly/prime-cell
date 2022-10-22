@@ -1,0 +1,11 @@
+.cabecalho_detalhe {
+    
+  width: 70%;
+  margin-bottom: -60px;
+}
+
+.img {
+    display: flex;
+   
+  background-color: black;
+}
