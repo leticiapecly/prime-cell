@@ -3,14 +3,11 @@
     width: 175px;
     height: 164px;
     margin: 0 auto;
-    
-    
-    
 }
 
 .assistencia_lista{
     
-    background-color: red;
+    
     display: flex;
     gap: 28px;
    
