@@ -16,6 +16,42 @@
 @import url(home/cabecalho/cabecalho-img.css);
 @import url(home/cabecalho/cabecalho-orcamento.css);
 @import url(home/cabecalho/cabecalho-detalhe.css);
+/* Main/Principal */
+@import url(home/main/principal/principal.css);
+@import url(home/main/principal/principal-titulo.css);
+@import url(home/main/principal/principal-description.css);
+@import url(home/main/principal/principal-description2.css);
+@import url(home/main/principal/principal-link.css);
+@import url(home/main/principal/principal-troca-celular.css);
+
+
+/* Main/*/
+@import url(home/main/assistencia/assistencia.css);
+@import url(home/main/assistencia/assistencia-titulo.css);
+@import url(home/main/assistencia/assistencia-paragrafo.css);
+@import url(home/main/assistencia/assistencia-container.css);
+@import url(home/main/assistencia/assistencia-icones.css);
+
+
+
+@import url(home/main/servicos/section-servicos.css);
+@import url(home/main/sobre/section-sobre.css);
+
+
+@import url(home/main/sobre/sobre-img.css);
+@import url(home/main/sobre/section-sobre.css);
+@import url(home/main/sobre/sobre-titulo.css);
+
+
+
+
+
+
+
+
+
+
+
 
 
 body {

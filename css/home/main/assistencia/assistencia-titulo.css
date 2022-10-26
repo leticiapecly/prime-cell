@@ -1,0 +1,19 @@
+.assistencia_titulo{
+    padding-top: 49px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 55px;
+    color: white;
+    
+}
+
+.assistencia_titulo::after {
+content: "";
+margin: 17px auto;
+
+display: block;
+width: 343px;
+height: 4px;
+background: #00FF0A;
+
+}

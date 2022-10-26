@@ -1,0 +1,27 @@
+.icones{
+    background-color:  #00FF0A;
+    width: 175px;
+    height: 164px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.assistencia_lista{
+    
+    background-color: red;
+    display: flex;
+    gap: 28px;
+   
+}
+
+
+.assistencia_lista li img {
+    background-color: blue;
+   
+}
+
+.assistencia_lista  li {
+    padding: 20px;
+}
