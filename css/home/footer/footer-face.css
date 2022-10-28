@@ -1,0 +1,15 @@
+.footer_face {
+  position: relative;
+}
+
+.footer_face::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: -45px;
+    top:-1px;
+    background-image: url(../../../pictures/icones/icone-facebook.png);
+    background-repeat: no-repeat;
+}

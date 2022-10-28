@@ -1,6 +1,6 @@
-.sobre_titulo {
-    
+.sobre-titulo {
    font-weight: 600; /* peso */
     font-size: 55px; /* tamanho */
     color: white;
+    margin-bottom: 50px;
 }

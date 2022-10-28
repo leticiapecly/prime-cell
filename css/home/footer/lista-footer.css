@@ -1,0 +1,6 @@
+.lista-footer {
+    
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+}

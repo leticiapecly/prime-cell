@@ -1,0 +1,16 @@
+.footer_localizacao-description {
+    color: white;
+    position: relative;
+}
+
+.footer_localizacao-description::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left: -48px;
+    top: -13px;
+    background-image: url(../../../pictures/icones/icone-localização.png);
+    background-repeat: no-repeat;
+    }

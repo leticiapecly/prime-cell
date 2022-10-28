@@ -1,0 +1,24 @@
+.detalhe-verde::after {
+  content: "";
+  margin: 10px auto;
+  display: block;
+  width: 343px;
+  height: 4px;
+  background: #00ff0a
+}
+
+.detalhe-verde2::after {
+  content: "";
+  margin: 10px auto;
+  display: block;
+  width: 550px;
+  height: 4px;
+  background: #00ff0a;
+}
+
+.background-footer::after {
+  content: "";
+  width: 3px;
+  height: 387px;
+  background: #d9d9d9;
+}

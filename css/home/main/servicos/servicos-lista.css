@@ -1,0 +1,10 @@
+.servicos_lista {
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    color: black;
+   justify-content: center;
+   grid-column-gap: 65px;
+   grid-row-gap: 2em;
+   
+}

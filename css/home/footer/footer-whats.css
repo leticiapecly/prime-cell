@@ -1,0 +1,16 @@
+.footer_whats {
+    position: relative;
+    
+  }
+  
+  .footer_whats::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      left:-45px;
+      top: -1px;
+      background-image: url(../../../pictures/icones/icone-whatasapp.png);
+      background-repeat: no-repeat;
+  }

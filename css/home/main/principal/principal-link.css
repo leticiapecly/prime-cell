@@ -10,6 +10,7 @@
     background:  #00ff0a;
     border-radius: 13px;
     transition: 0.2s;
+    text-align: center;
 }
 .principal_link:hover {
     transform: scale(1.2);

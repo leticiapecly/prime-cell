@@ -6,14 +6,3 @@
     color: white;
     
 }
-
-.assistencia_titulo::after {
-content: "";
-margin: 17px auto;
-
-display: block;
-width: 343px;
-height: 4px;
-background: #00FF0A;
-
-}
