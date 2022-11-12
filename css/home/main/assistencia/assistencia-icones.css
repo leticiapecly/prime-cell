@@ -1,9 +1,0 @@
-.assistencia_icones {
-  padding: 20px;
-  transition: 0.2s;
-}
-
-
-.assistencia_icones:hover {
-  transform: scale(1.1);
-}

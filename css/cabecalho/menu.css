@@ -1,0 +1,77 @@
+
+
+#menu {
+  display: block;
+  position: absolute;
+  width: 123px;
+  height: 0;
+  top: 80px;
+  left: 357px;
+  background-color: white;
+  transition: 0.20s;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+
+#nav.active #menu {
+  visibility: visible; 
+  overflow: auto;
+  height: 130px;
+}
+
+.menu__item {
+  text-align: center;
+  margin-top: 19px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.menu__link {
+
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+ 
+}
+
+#btn-mobile {
+  color: pink;
+  display: block;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  gap: .5rem;
+}
+
+#hamburguer {
+  display: block;
+  width: 20px;
+  border-top: 2px solid;
+}
+
+#hamburguer::after, #hamburguer::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: pink;
+  margin-top: 5px;
+  transition: .4s;
+  position:relative;
+}
+
+#nav.active #hamburguer {
+  border-top-color: transparent;
+}
+
+#nav.active #hamburguer::before {
+  transform: rotate(135deg);
+}
+
+#nav.active #hamburguer::after {
+  position: absolute;
+  top: 40px;
+  transform: rotate(-135deg);
+}

@@ -1,0 +1,14 @@
+.marcas__lista {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+  margin-bottom: 36px;
+ 
+}
+
+
+.marcas__item img{
+  width: 71px;
+
+}

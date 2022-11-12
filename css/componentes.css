@@ -1,10 +1,14 @@
-.detalhe-verde::after {
+.detalhe__verde::after {
   content: "";
   margin: 10px auto;
   display: block;
-  width: 343px;
+  width: 219px;
   height: 4px;
   background: #00ff0a
+}
+
+.destaque {
+  font-weight: 600;
 }
 
 .detalhe-verde2::after {
@@ -21,4 +25,31 @@
   width: 3px;
   height: 387px;
   background: #d9d9d9;
+}
+
+
+.orcamento {
+  width: 89px;
+  height: 22px;
+  background: #00FF0A;
+  border-radius: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 5px;
+  
+}
+
+#button {
+  font-family: 'Poppins';
+  display: block;
+  margin: 0 auto;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  width: 159px;
+  height: 42px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: -5px -8px #00ff0a;
+  border: none;
 }
