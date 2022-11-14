@@ -9,7 +9,7 @@
   --bc1: #000000 ;
   --bc2: #F2F9F4 ;
   --bc3: #FFFFFF ;
-  --bc4: #42FF00 ;
+  --bc4: #00FF0A ;
 
   /* Detalhe */
   --d1: #00FF0A ;
@@ -18,4 +18,12 @@
 
 .cor1 {
   color: var(--cor1);
+}
+
+.cor2 {
+ color: var(--cor2);
+}
+
+.d1 {
+  color: var(--d1);
 }

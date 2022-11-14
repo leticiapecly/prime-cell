@@ -1,0 +1,27 @@
+@import url(container__contatos.css);
+@import url(direitosAutorais.css);
+
+#rodape {
+  font-size: 15px;
+  height: 40vh;
+  padding-top: 20px;
+
+}
+
+#rodape .loja img{
+   width: 40px;
+}
+
+
+#rodape h3{
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+
+#rodape img {
+ width: 30px;
+}
+
+

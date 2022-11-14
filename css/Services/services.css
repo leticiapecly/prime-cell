@@ -1,0 +1,15 @@
+@import url(carrosel.css);
+
+
+.services__bg {
+  background-color: white;
+height: 50vh;
+}
+
+
+.services {
+  padding-top: 17px;
+  text-align: center;
+  width: 320px;
+  margin: 0 auto;
+}

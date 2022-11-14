@@ -1,0 +1,19 @@
+.brands__list {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+  margin-bottom: 36px;
+}
+
+
+.brands__item img{
+  width: 50px;
+
+}
+
+@media (min-width: 440px) {
+  .brands__item img {
+   width: 71px;
+  }
+}

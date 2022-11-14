@@ -12,10 +12,8 @@
 </head>
 
 <body>
-  <header class="cabecalho">
-    <img class="cabecalho__img" src="pictures/Logo_PrimeCell.png" alt="Logo Prime Cell">
-
-
+  <header id="header">
+    <img class="header__img" src="pictures/Logo_PrimeCell.png" alt="Logo Prime Cell">
     <nav id="nav">
       <button id="btn-mobile">
         <span id="hamburguer"></span>
@@ -27,58 +25,95 @@
         <li class="menu__item"><a class="menu__link orcamento" href="#">Orçamento</a></li>
       </ul>
     </nav>
-
   </header>
+
   <main>
-    <section class="">
+    <section class="intro">
 
     </section>
-    <article class="sobre">
-        <img  class="sobre__img" src="pictures/Logo__Primecell_vazada.png" alt="">
-        <div class="sobre__container">
-            <h2 class="sobre__titulo detalhe__verde">Sobre a Prime Cell</h2>
-            <p class="sobre__description">
+    <article class="about">
+        <img  class="about__img" src="pictures/Loogo Prime Cell.png" alt="">
+        <div class="about__container">
+            <h2 class="about__titulo detalhe__verde">Sobre a Prime Cell</h2>
+            <p class="about__description">
               A <span class="destaque">Prime Cell</span> possui uma ampla variedade de serviços voltados para telefonia celular e, com ela, você pode comprar acessórios originais e solicitar assistência técnica para celulares e smartphones das diversas marcas como:  iPhone, LG, Motorola, Samsung e Xiaomi. O conserto do celular é feito por técnicos altamente capacitados e que oferecem garantia adequada para cada tipo de conserto e aparelho.
             </p>
-            <p class="sobre__description">
+            <p class="about__description">
               O laboratório da <span class="destaque">Prime Cell</span> conta com equipamentos de última geração, especiais para realizar o conserto em todas as marcas de celular, sendo eles nacionais ou importados.
             </p>
         </div>
     </article>
 
-    <section class="marcas">
-      <h3 class="marcas__titulo detalhe__verde">Marcas que trabalhamos</h3>
-      <ul class="marcas__lista">
-        <li class="marcas__item"><img src="pictures/icones/icone-motorola.png" alt="Icone Motorola"></li>
-        <li class="marcas__item"><img src="pictures/icones/icone-apple.png" alt="Icone Apple"></li>
-        <li class="marcas__item"><img src="pictures/icones/icone-samsung.png" alt="Icone Samsung"></li>
-        <li class="marcas__item"><img src="pictures/icones/icone-android.png" alt="Icone Android"></li>
-        <li class="marcas__item"><img src="pictures/icones/icone-mi.png" alt="Icone Mi"></li>
+    <section class="brands">
+      <h3 class="second_title detalhe__verde">Marcas que trabalhamos</h3>
+      <ul class="brands__list">
+        <li class="brands__item"><img src="pictures/icones/icone-motorola.png" alt="Icone Motorola"></li>
+        <li class="brands__item"><img src="pictures/icones/icone-apple.png" alt="Icone Apple"></li>
+        <li class="brands__item"><img src="pictures/icones/icone-samsung.png" alt="Icone Samsung"></li>
+        <li class="brands__item"><img src="pictures/icones/icone-android.png" alt="Icone Android"></li>
+        <li class="brands__item"><img src="pictures/icones/icone-mi.png" alt="Icone Mi"></li>
       </ul>
     </section>
 
-    <section class="servicos__bg">
-      <div class="servicos">
-        <h2 class="servicos__titulo detalhe__verde">Conheça os nossos serviços</h2>
-        <div class="carrosel">
-          <div class="caixa__card cc__1"><img src="pictures/icones-mobile/Troca de Tela.png" alt="Icone tela quebrada"></div>
-          <div class="caixa__card cc__2"><img src="pictures/icones-mobile/Alto Falante.png" alt="icone alto Falante"></div>
-          <div class="caixa__card cc__3"><img src="pictures/icones-mobile/Troca de Bateria.png" alt="Icone bateria"></div>
-          <div class="caixa__card cc__4"><img src="pictures/icones-mobile/Atualização.png" alt="Icone atualização"></div>
-          <div class="caixa__card cc__5"><img src="pictures/icones-mobile/Restauração de Software.png" alt="Icone Restauração"></div>
-          <div class="caixa__card cc__6"><img src="pictures/icones-mobile/Desbloqueio de celular.png" alt="Icone desbloqueio de celular"></div>
-          <div class="caixa__card cc__7"><img src="pictures/icones-mobile/Troca de conectores.png" alt="Icone Troca de conectores"></div>
-          <div class="caixa__card cc__8"><img src="pictures/icones-mobile/Reparo na placa principal.png" alt="Icone reparo na placa principal"></div>
-          <div class="caixa__card cc__9"><img src="pictures/icones-mobile/Desoxidação de celular.png" alt="Icone desoxidação"></div>
+    <section class="services__bg">
+      <div class="services">
+        <h2 class="second_title cor2 detalhe__verde">Conheça os nossos serviços</h2>
+        <div class="carousel">
+          <div class="box__card cc__1"><img src="pictures/icones-mobile/Troca de Tela.png" alt="Icone tela quebrada"></div>
+          <div class="box__card cc__2"><img src="pictures/icones-mobile/Alto Falante.png" alt="icone alto Falante"></div>
+          <div class="box__card cc__3"><img src="pictures/icones-mobile/Troca de Bateria.png" alt="Icone bateria"></div>
+          <div class="box__card cc__4"><img src="pictures/icones-mobile/Atualização.png" alt="Icone atualização"></div>
+          <div class="box__card cc__5"><img src="pictures/icones-mobile/Restauração de Software.png" alt="Icone Restauração"></div>
+          <div class="box__card cc__6"><img src="pictures/icones-mobile/Desbloqueio de celular.png" alt="Icone desbloqueio de celular"></div>
+          <div class="box__card cc__7"><img src="pictures/icones-mobile/Troca de conectores.png" alt="Icone Troca de conectores"></div>
+          <div class="box__card cc__8"><img src="pictures/icones-mobile/Reparo na placa principal.png" alt="Icone reparo na placa principal"></div>
+          <div class="box__card cc__9"><img src="pictures/icones-mobile/Desoxidação de celular.png" alt="Icone desoxidação"></div>
         </div>
       </div>
       <button id="button">Fale conosco</button>
     </section>
   </main>
   
-  <footer class="rodape"></footer>
+  <footer id="rodape">
+    <h3>Loja:</h3>
+    <div class="loja">
+      <img src="pictures/icones/icone-localização.png" alt="">
+      <p>Rua Marquês de Olinda n°34</p>
+    </div>
 
+    <div class="container__contatos">
+      <h3>Contatos:</h3>
+      <div class="container__whatsapp">
+        <img src="pictures/icones/icone-whatasapp.png" alt="">
+        <p>(22)99867-7325</p>
+      </div>
+
+      <div class="container__instagram">
+        <img src="pictures/icones/icone-instagram.png" alt="">
+        <p>@primecell.cf</p>
+      </div>
+
+      <div class="container__facebook">
+        <img src="pictures/icones/icone-facebook.png" alt="">
+        <p>primecell.cf.7</p>
+      </div>
+
+      <div class="container__email">
+        <img src="pictures/icones/Icone-email.png" alt="">
+        <p>aindafaltaoemail@gmail.com</p>
+      </div>
+
+      <div class="container__horarios">
+        <img src="pictures/icones/icone-relogio.png" alt="">
+        <p>Seg. a Sex: 9:00 - 18:30 - Sab: 10:00 - 15h30</p>
+      </div>
+    </div>
+
+    <div id="direitosAutorais">
+        <p>© Prime Cell  2019 - 2022. Todos os direitos reservados.</p>
+        <p>Desenvolvido por <span class="cor1">CodeiWeb</span></p>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
-
 </html>

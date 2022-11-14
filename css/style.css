@@ -9,24 +9,22 @@
 
 @import url(componentes.css);
 
-@import url(cabecalho/cabecalho.css);
+@import url(Header/header.css);
 
-@import url(sobre/sobre.css);
+@import url(About/about.css);
 
-@import url(marcas/marcas.css);
-@import url(marcas/marca-lista.css);
+@import url(Brands/brands.css);
 
-@import url(cabecalho/menu.css);
+@import url(Services/services.css);
 
+@import url(Intro/intro.css);
 
-@import url(serviços/servicos.css);
-@import url(serviços/carrosel.css);
-@import url(rodape/rodape.css);
+@import url(Footer/rodape.css);
 
 body {
     font-family: "Poppins", sans-serif;
     color: var(--cor1);
-    max-width: 480px;
+  
     background-color: var(--bc1);
 }
 

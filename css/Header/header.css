@@ -1,14 +1,16 @@
-.cabecalho {
+
+@import url(menu.css);
+
+#header {
   display: flex;
   padding: 1rem;
   justify-content: space-between;
   background-color: black;
   height: 85px;
-  max-width: 480px;
   align-items: center;
 }
 
-.cabecalho__img {
-width: 45px;
+.header__img {
+  width: 45px;
 }
 

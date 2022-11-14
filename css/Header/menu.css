@@ -3,10 +3,10 @@
 #menu {
   display: block;
   position: absolute;
-  width: 123px;
+  width: 120px;
   height: 0;
   top: 80px;
-  left: 357px;
+  left: 62vw;
   background-color: white;
   transition: 0.20s;
   visibility: hidden;
@@ -28,15 +28,14 @@
 }
 
 .menu__link {
-
   color: black;
   text-decoration: none;
   font-size: 14px;
- 
+
 }
 
 #btn-mobile {
-  color: pink;
+  color: var(--bc4);
   display: block;
   padding: 0.5rem 1rem;
   border: none;
@@ -49,6 +48,7 @@
   display: block;
   width: 20px;
   border-top: 2px solid;
+  
 }
 
 #hamburguer::after, #hamburguer::before {
@@ -56,7 +56,7 @@
   display: block;
   width: 20px;
   height: 2px;
-  background-color: pink;
+  background-color: currentColor;
   margin-top: 5px;
   transition: .4s;
   position:relative;
@@ -75,3 +75,60 @@
   top: 40px;
   transform: rotate(-135deg);
 }
+
+@media (min-width:330px ) {
+  #menu {
+    left: 64vw;
+  }
+}
+
+@media (min-width:330px ) {
+  #menu {
+    left: 65vw;
+  }
+}
+
+
+@media (min-width:360px ) {
+  #menu {
+    left: 66vw;
+  }
+}
+
+
+@media (min-width:380px ) {
+  #menu {
+    left: 68vw;
+  }
+}
+
+@media (min-width:400px ) {
+  #menu {
+    left:70vw;
+  }
+}
+
+@media (min-width:420px ) {
+  #menu {
+    left:71.1vw;
+  }
+}
+
+@media (min-width:420px ) {
+  #menu {
+    left:72vw;
+  }
+}
+
+@media (min-width:440px ) {
+  #menu {
+    left:72.5vw;
+  }
+}
+
+@media (min-width:450px ) {
+  #menu {
+    left:73vw;
+  }
+}
+
