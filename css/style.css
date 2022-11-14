@@ -7,27 +7,33 @@
 /* Cores */
 @import url(cores.css);
 
+/*Utilitarios globais */
 @import url(componentes.css);
 
+/* Sessão Header */
 @import url(Header/header.css);
 
+
+/*Sessão Sobre */
 @import url(About/about.css);
 
+
+/* Sessão Marcas*/
 @import url(Brands/brands.css);
 
+
+/* Sessão Serviços*/
 @import url(Services/services.css);
 
+/* Sessão de Introdução */ 
 @import url(Intro/intro.css);
 
+/* Sessão Footer */
 @import url(Footer/rodape.css);
 
 body {
     font-family: "Poppins", sans-serif;
     color: var(--cor1);
-  
     background-color: var(--bc1);
 }
 
-/* Sobre */
-
-/* Sobre > imagem */

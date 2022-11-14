@@ -1,6 +1,8 @@
-@import url(container__contatos.css);
-@import url(direitosAutorais.css);
+@import url(container__contatos.css); /* Sessão contatos */
+@import url(direitosAutorais.css); /* Sessão Direitos autorais*/
 
+
+/* Sessão rodape */
 #rodape {
   font-size: 15px;
   height: 40vh;
@@ -9,9 +11,8 @@
 }
 
 #rodape .loja img{
-   width: 40px;
+width: 40px;
 }
-
 
 #rodape h3{
   display: block;
@@ -19,9 +20,8 @@
   font-weight: 700;
 }
 
-
 #rodape img {
- width: 30px;
+width: 30px;
 }
 
 

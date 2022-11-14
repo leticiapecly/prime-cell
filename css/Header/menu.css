@@ -1,5 +1,4 @@
 
-
 #menu {
   display: block;
   position: absolute;
@@ -7,15 +6,14 @@
   height: 0;
   top: 80px;
   left: 62vw;
-  background-color: white;
+  background-color: var(--cor1);
   transition: 0.20s;
-  visibility: hidden;
-  overflow: hidden;
+  visibility: hidden; /* esconde o menu */
+  overflow: hidden; /* ajuste de bug do overflow*/
 }
 
-
-#nav.active #menu {
-  visibility: visible; 
+#nav.active #menu { /* quando a nav estiver com a class .active o menu vai aparecer */
+  visibility: visible; /* faz o menu aparecer */
   overflow: auto;
   height: 130px;
 }
@@ -28,13 +26,13 @@
 }
 
 .menu__link {
-  color: black;
+  color: var(--cor2);
   text-decoration: none;
-  font-size: 14px;
+  font-size: .875rem;
 
 }
 
-#btn-mobile {
+#btn-mobile { /* Botão  de ação do menu hamburguer */
   color: var(--bc4);
   display: block;
   padding: 0.5rem 1rem;
@@ -44,14 +42,13 @@
   gap: .5rem;
 }
 
-#hamburguer {
+#hamburguer { /* Menu Hamburguer */
   display: block;
   width: 20px;
   border-top: 2px solid;
-  
 }
 
-#hamburguer::after, #hamburguer::before {
+#hamburguer::after, #hamburguer::before { /* Hamburguer::after - Linha do meio e Hamburguer::before - linha de baixo */
   content: "";
   display: block;
   width: 20px;
@@ -62,15 +59,15 @@
   position:relative;
 }
 
-#nav.active #hamburguer {
+#nav.active #hamburguer { /* quando a nav estiver com a class .active a linha do meio vai desaparecer*/
   border-top-color: transparent;
 }
 
-#nav.active #hamburguer::before {
+#nav.active #hamburguer::before { /* quando a nav estiver com a class .active a primeira linha vai fazer uma rotação de 135deg*/
   transform: rotate(135deg);
 }
 
-#nav.active #hamburguer::after {
+#nav.active #hamburguer::after { /* quando a nav estiver com a class .active a ultima linha ira fazer  uma rotação de -135deg*/
   position: absolute;
   top: 40px;
   transform: rotate(-135deg);
@@ -88,13 +85,11 @@
   }
 }
 
-
 @media (min-width:360px ) {
   #menu {
     left: 66vw;
   }
 }
-
 
 @media (min-width:380px ) {
   #menu {

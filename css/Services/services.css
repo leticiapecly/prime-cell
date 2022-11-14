@@ -1,9 +1,10 @@
-@import url(carrosel.css);
+@import url(carrosel.css); /* Carrossel animado */
 
 
-.services__bg {
-  background-color: white;
-height: 50vh;
+/* Sessão de Serviços */
+.services__bg { 
+  background-color: var(--bc2);
+  height: 50vh;
 }
 
 

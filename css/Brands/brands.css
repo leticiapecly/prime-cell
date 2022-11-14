@@ -1,5 +1,8 @@
-@import url(brands__list.css);
 
+
+@import url(brands__list.css); /* Lista de marca que trabalhamos */
+
+/* Sessão Marcas */
 .brands {
   margin-top: 93px;
   text-align: center;
